@@ -16,6 +16,6 @@ section {
   text-align: center;
 }
 
-.selfpic img:hover {
+div.selfpic img:hover {
   opacity: 0;
 }
