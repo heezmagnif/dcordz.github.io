@@ -1,3 +1,17 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:inherit;
+  font-weight:inherit;
+  font-family:inherit;
+  font-style:inherit;
+  text-decoration:inherit;
+  line-height:inherit;
+  color:inherit;
+}
+
+
 body {
   outline: 1px solid blue;
   width: 99%;
@@ -9,32 +23,49 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   width: 15%;
+  position: absolute;
 }
 
-div.button_images {
-  outline: 1px solid purple;
+#button_images {
+  position: fixed;
+  width: 20%;
+  height: 20%;
+  /*outline: 1px solid purple;*/
 }
 
 ul {
   list-style-type: none;
 }
 
+#button_images{
+  /*outline:2px dashed orange;*/
+}
 li.images {
-  width: 10%;
-  height: 10%;
+  width:250px;
+  position:relative;
 }
 
 li.images img {
-  max-width: 100%;
-  max-height: 100%;
+  width:100%;
 }
 
-button {
-  visibility: hidden;
+li.images button {
+  /*visibility: hidden;
   padding: 10px;
   background-color: #E06C75;
   color: white;
-  margin: 20px 0px;
+  margin: 20px 0px;*/
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  opacity:0;
+  transition: left 0.5s, opacity 0.5s;
+}
+li.images:hover button{
+  left:100%;
+  opacity:1;
 }
 
 .earth {
