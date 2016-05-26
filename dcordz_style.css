@@ -11,35 +11,22 @@
   color:inherit;
 }
 
-
 body {
   outline: 1px solid blue;
   width: 99%;
-}
-
-nav {
-  outline: 1px solid red;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 15%;
-  position: absolute;
 }
 
 #button_images {
   position: fixed;
   width: 20%;
   height: 20%;
-  /*outline: 1px solid purple;*/
+  outline: 1px solid purple;
 }
 
 ul {
   list-style-type: none;
 }
 
-#button_images{
-  /*outline:2px dashed orange;*/
-}
 li.images {
   width:250px;
   position:relative;
@@ -50,11 +37,8 @@ li.images img {
 }
 
 li.images button {
-  /*visibility: hidden;
-  padding: 10px;
   background-color: #E06C75;
   color: white;
-  margin: 20px 0px;*/
   position:absolute;
   left:0;
   top:0;
@@ -63,12 +47,31 @@ li.images button {
   opacity:0;
   transition: left 0.5s, opacity 0.5s;
 }
+
 li.images:hover button{
   left:100%;
   opacity:1;
 }
 
-.earth {
+.aboutme {
+  outline: 1px solid green;
+  width: 60%;
+  float: right;
+}
+
+.aboutme img {
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 20px auto;
+}
+
+.aboutme section {
+  text-align: left;
+  margin-left: 25px;
+}
+
+/*.earth {
   outline: 1px solid green;
   width: 60%;
   float: right;
@@ -78,4 +81,4 @@ li.images:hover button{
 .earth img {
   max-width: 100%;
   max-height: 100%
-}
+}*/
