@@ -1,0 +1,50 @@
+@media all and (max-width: 700px) {
+  * {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:inherit;
+    font-weight:inherit;
+    font-family:inherit;
+    font-style:inherit;
+    text-decoration:inherit;
+    line-height:inherit;
+    color:inherit;
+  }
+   #button_images {
+     height: 100%;
+     width: 100%;
+     position: relative;
+  }
+  .aboutme {
+    margin: 20px auto;
+    width: 100%;
+    float: none;
+    padding:0;
+    border: 0;
+  }
+
+  li.images button {
+    background-color: #E06C75;
+    font-family: 'Candal',sans-serif;
+    color: #282c54;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 1px;
+    left:0;
+    top:0;
+    width:50%;
+    height:50%;
+    visibility: hidden;
+    box-shadow: 0px 0px 10px #E06C00;
+    transition: center 0.5s, opacity 0.5s;
+  }
+
+  li.images:hover {
+
+  }
+
+  li.images:hover button {
+
+  }
+}
