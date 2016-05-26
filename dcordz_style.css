@@ -9,14 +9,28 @@ nav {
   flex-direction: column;
   align-items: flex-start;
   width: 15%;
-  position: fixed;
+}
+
+div.button_images {
+  outline: 1px solid purple;
 }
 
 ul {
   list-style-type: none;
 }
 
+li.images {
+  width: 10%;
+  height: 10%;
+}
+
+li.images img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 button {
+  visibility: hidden;
   padding: 10px;
   background-color: #E06C75;
   color: white;
