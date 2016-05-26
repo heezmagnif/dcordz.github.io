@@ -1,8 +1,15 @@
+body {
+  outline: 1px solid blue;
+  width: 99%;
+}
+
 nav {
+  outline: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex-basis: 20%;
+  width: 15%;
+  position: fixed;
 }
 
 ul {
@@ -14,6 +21,13 @@ button {
   background-color: #E06C75;
   color: white;
   margin: 20px 0px;
+}
+
+.earth {
+  outline: 1px solid green;
+  width: 60%;
+  float: right;
+  margin-right: 10px;
 }
 
 .earth img {
